@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: cache-synch
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/}
+  instance:
+    preferIpAddress: true
+   
+   
